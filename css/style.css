@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-title{
+    font-family: 'Yeon Sung', cursive;
+}
+
+.btn-primary{
+    color:#fff;
+    font-weight: 700;
+    font-size:24px;
+    border: none;
+    padding: 18px 35px;
+    Height: 64px;
+    border-Radius: 5px;
+    background: #e62f2f;
+    text-transform:capitalize;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* header and navigation styles */
+.header{
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    
+}
+nav h2{
+    color:#fff;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+nav ul{
+    color:white;
+    display: flex;
+    align-items: center;
+}
+
+/* nav li.active{
+    background:#fff;
+} */
+
+nav li{
+    font-family: 'Yeon Sung', cursive;
+    font-size: 24px;
+    list-style: none;
+    margin-right: 10px;
+    padding: 10px 20px;
+    
+}
+
+nav li:hover{
+    background:lightcyan;
+}
+
+/* banner section styles */
+.banner{
+    background-image: url('../images/donation7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.banner .banner-sub-title{
+    color: white;
+    font-family: 'Yeon Sung', cursive;
+    text-align: center;
+    font-size: 48px;
+}
+
+.banner .banner-title{
+    color:white;
+    font-family: 'Yeon Sung', cursive;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.banner-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* donate styles */
+.donate-today{
+    background: #f5efef;
+    padding-bottom: 120px;
+}
+.donate{
+    text-align: center;
+    padding-top: 130px;
+    
+}
+.donate-title{
+    color: #000;
+    font-family:  'Yeon Sung', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.donate-description{
+    color: #383636;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 400px;
+}
+
+/* amount styles */
+.amount{
+    display: flex;
+    justify-content:center;
+    gap:15px;
+    margin-top: 40px;
+    
+}
+
+.amount .donate-amount{
+    background: #E6E6E6;
+    padding: 35px 20px;
+    border-radius: 5px;
+}
+
+.amount .tk{
+    font-family:  'Yeon Sung', cursive;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.amount .dota{
+    color:#e62f2f;
+}
+
+.amount .donate-tk{
+    border:3px solid #e62f2f;
+    background: rgba(230, 47, 47, 0.3);
+}
+
+.donate-now{
+    text-align: center;
+    padding: 0 300px;
+    margin-top: 60px;
+}
+
+.donate-now .other{
+    color: #383636;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.donate-now .btn{
+    margin-top: 30px;
+}
+
+/* donate plan styles */
+.plan{
+    background: #f5efef;
+}
+
+.donate-plan{
+    text-align: center;
+}
+
+.plan-title{
+    color: #000;
+    font-family:  'Yeon Sung', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.plan-description{
+    color: #383636;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 400px;
+}
+
+.item{
+    display: flex;
+    gap:20px;
+    padding: 0 200px;
+    padding-bottom: 120px;
+    
+}
+
+.item .donate-item{
+    background: #E6E6E6;
+    padding: 60px 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.item  i{
+    font-size: 34px;
+    
+}
+
+.item .item-title{
+    color: #000;
+    font-family:  'Yeon Sung', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.item .item-description{
+    color: #383636;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+/* live styles */
+.live{
+    display: flex;
+    background: #f5efef;
+    gap:35px;
+    padding: 0 200px;
+    padding-bottom: 120px;
+}
+
+.live-title{
+    color: #000;
+    font-family:  'Yeon Sung', cursive;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.live-description{
+    color: #383636;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+/* update styles */
+my-update{
+  background: #b9b0b0;
+}
+
+.update{
+    text-align: center;
+}
+
+.update-title{
+    color: #000;
+    font-family:  'Yeon Sung', cursive;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.update-description{
+    color: #383636;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding: 0 400px;
+}
+
+.form{
+    background: #b9b0b0;
+    width: 200px; 
+    display: inline-block;
+    justify-content: center;
+    padding: 30px 60px;
+    margin-bottom: 120px;
+    border-radius: 5px;
+    
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding: 0 5px;
+}
+
+/* footer styles */
+.footer{
+    background: #101010;
+}
+
+.sub-footer{
+    text-align: center;
+}
+
+.footer-title{
+    color:#e62f2f;
+    font-family:  'Yeon Sung', cursive;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.footer-description{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 14px;
+    padding-bottom: 20px;
+}
+
+/* ends */
